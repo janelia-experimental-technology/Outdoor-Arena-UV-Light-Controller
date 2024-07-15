@@ -35,7 +35,7 @@ void setup() {
 void trigger() {
   
   if (state) {
-    DmxSimple.write(9, 51);
+    DmxSimple.write(9, 0);
     state = false;
   }
 
