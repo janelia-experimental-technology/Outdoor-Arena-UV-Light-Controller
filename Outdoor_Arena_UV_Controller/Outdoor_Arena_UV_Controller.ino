@@ -35,12 +35,12 @@ void setup() {
 void trigger() {
   
   if (state) {
-    DmxSimple.write(9, 0);
+    DmxSimple.write(9, 51);
     state = false;
   }
 
   else {
-    DmxSimple.write(9, 51);
+    DmxSimple.write(9, 0);
     state = true;
   }
 }
